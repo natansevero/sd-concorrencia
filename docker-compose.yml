@@ -1,0 +1,13 @@
+version: '2'
+services:
+    sync-buffer:
+        build: sync-buffer
+        container_name: sync-buffer
+        
+    circular-buffer:
+        build: circular-buffer
+        container_name: circular-buffer
+    
+    blocking-buffer:
+        build: blocking-buffer
+        container_name: blocking-buffer
